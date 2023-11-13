@@ -16,6 +16,7 @@ import User from './container/User.jsx'
 
 import Login from './components/Login.jsx'
 import Registration from './components/Registration.jsx'
+import Coindesk from './components/Coindesk.jsx'
 
 
 
@@ -33,6 +34,7 @@ const router = createBrowserRouter(
     <Route path='/registration' element={<Registration/>}/>
     <Route path='/chat' element={<Chat/>}/>
     <Route path='/user' element={<User/>}/>
+    <Route path='/coindesk' element={<Coindesk/>}/>
   </Route>
 )
 )
